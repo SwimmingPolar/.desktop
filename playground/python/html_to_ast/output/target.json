@@ -1,0 +1,3209 @@
+{
+  "html_element": "body",
+  "children": [
+    {
+      "html_element": "div",
+      "id": "wrapper",
+      "class_name": "wrapper",
+      "children": [
+        {
+          "html_element": "div",
+          "class_name": "navi_tab",
+          "children": [
+            {
+              "html_element": "a",
+              "text": "본문 바로가기"
+            },
+            {
+              "html_element": "a",
+              "text": "주메뉴 바로가기"
+            }
+          ]
+        },
+        {
+          "html_element": "div",
+          "class_name": "m_navi_tab",
+          "children": [
+            {
+              "html_element": "a",
+              "text": "전체메뉴가기"
+            },
+            {
+              "html_element": "a",
+              "text": "본문가기"
+            }
+          ]
+        },
+        {
+          "html_element": "div",
+          "id": "header",
+          "children": [
+            {
+              "html_element": "button",
+              "id": "m_gnb",
+              "class_name": "m_gnb",
+              "children": [
+                {
+                  "html_element": "span",
+                  "class_name": "blind",
+                  "text": "메뉴보기"
+                }
+              ]
+            },
+            {
+              "html_element": "h1",
+              "class_name": "t_logo",
+              "children": [
+                {
+                  "html_element": "a",
+                  "children": [
+                    {
+                      "html_element": "img"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "html_element": "div",
+              "class_name": "header_wrap",
+              "children": [
+                {
+                  "html_element": "div",
+                  "class_name": "h_top_menu_wrap",
+                  "children": [
+                    {
+                      "html_element": "ul",
+                      "class_name": "h_top_menu",
+                      "children": [
+                        {
+                          "html_element": "li",
+                          "children": [
+                            {
+                              "html_element": "a",
+                              "text": "마이페이지",
+                              "children": [
+                                {
+                                  "html_element": "i",
+                                  "class_name": "xi-user-o"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "html_element": "ul",
+                  "id": "gnb",
+                  "children": [
+                    {
+                      "html_element": "li",
+                      "children": [
+                        {
+                          "html_element": "a",
+                          "text": "청약신청"
+                        },
+                        {
+                          "html_element": "ul",
+                          "children": [
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu639",
+                                  "text": "APT"
+                                },
+                                {
+                                  "html_element": "ul",
+                                  "children": [
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu667",
+                                          "text": "특별공급"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu100085",
+                                          "text": "1순위/2순위"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu100133",
+                                          "text": "무순위/잔여세대"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu100337",
+                                          "text": "임의공급"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu100164",
+                                          "text": "취소후재공급"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu668",
+                                          "text": "청약신청 내역조회"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu669",
+                                          "text": "청약취소"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu640",
+                                  "text": "오피스텔/생활숙박시설/도시형/민간임대"
+                                },
+                                {
+                                  "html_element": "ul",
+                                  "children": [
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu670",
+                                          "text": "청약신청"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu671",
+                                          "text": "청약신청 내역조회"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu672",
+                                          "text": "청약취소"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu641",
+                                  "text": "공공지원민간임대"
+                                },
+                                {
+                                  "html_element": "ul",
+                                  "children": [
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu673",
+                                          "text": "청약신청"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu674",
+                                          "text": "청약신청 내역조회"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu675",
+                                          "text": "청약취소"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "html_element": "li",
+                      "children": [
+                        {
+                          "html_element": "a",
+                          "text": "민간사전청약"
+                        },
+                        {
+                          "html_element": "ul",
+                          "children": [
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu100255",
+                                  "text": "분양정보/경쟁률"
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu100256",
+                                  "text": "청약신청"
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu100257",
+                                  "text": "청약신청 내역조회"
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu100258",
+                                  "text": "청약취소"
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu100259",
+                                  "text": "당첨조회"
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu100260",
+                                  "text": "사전청약 예정단지 현황"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "html_element": "li",
+                      "children": [
+                        {
+                          "html_element": "a",
+                          "text": "청약당첨조회"
+                        },
+                        {
+                          "html_element": "ul",
+                          "children": [
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu646",
+                                  "text": "APT"
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu647",
+                                  "text": "오피스텔/생활숙박시설/도시형/민간임대"
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu648",
+                                  "text": "공공지원민간임대"
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu649",
+                                  "text": "주택조합 동·호수 추첨결과"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "html_element": "li",
+                      "children": [
+                        {
+                          "html_element": "a",
+                          "text": "청약자격확인"
+                        },
+                        {
+                          "html_element": "ul",
+                          "children": [
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu100022",
+                                  "text": "세대구성원 등록/조회"
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu100127",
+                                  "text": "세대구성원 동의"
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu100128",
+                                  "text": "청약제한사항확인"
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu100129",
+                                  "text": "주택소유확인"
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu100276",
+                                  "text": "청약통장"
+                                },
+                                {
+                                  "html_element": "ul",
+                                  "children": [
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu100277",
+                                          "text": "가입내역"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu100278",
+                                          "text": "순위확인서 발급"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu100279",
+                                          "text": "순위확인서 발급내역"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu100312",
+                                  "text": "청약자격진단"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "html_element": "li",
+                      "children": [
+                        {
+                          "html_element": "a",
+                          "text": "공고단지 청약연습"
+                        },
+                        {
+                          "html_element": "ul",
+                          "children": [
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu100280",
+                                  "text": "공고단지"
+                                },
+                                {
+                                  "html_element": "ul",
+                                  "children": [
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu100281",
+                                          "text": "청약연습"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu100282",
+                                          "text": "연습내역 조회"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu100125",
+                                  "text": "청약가점계산기"
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu100126",
+                                  "text": "청약가상체험"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "html_element": "li",
+                      "children": [
+                        {
+                          "html_element": "a",
+                          "text": "청약일정 및 통계"
+                        },
+                        {
+                          "html_element": "ul",
+                          "children": [
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu651",
+                                  "text": "청약캘린더(청약일정)"
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu652",
+                                  "text": "청약알리미 신청"
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu650",
+                                  "text": "분양정보/경쟁률"
+                                },
+                                {
+                                  "html_element": "ul",
+                                  "children": [
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu686",
+                                          "text": "APT"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu687",
+                                          "text": "오피스텔/생활숙박시설/도시형/(공공지원)민간임대"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu818",
+                                          "text": "무순위/잔여세대"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu100338",
+                                          "text": "임의공급"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu654",
+                                  "text": "청약통장 통계"
+                                },
+                                {
+                                  "html_element": "ul",
+                                  "children": [
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu688",
+                                          "text": "전체 현황"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu689",
+                                          "text": "통장별 현황"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu690",
+                                          "text": "가입기간별 현황"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "html_element": "li",
+                      "children": [
+                        {
+                          "html_element": "a",
+                          "text": "청약제도안내"
+                        },
+                        {
+                          "html_element": "ul",
+                          "children": [
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu655",
+                                  "text": "APT"
+                                },
+                                {
+                                  "html_element": "ul",
+                                  "children": [
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu692",
+                                          "text": "청약주택"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu693",
+                                          "text": "청약통장"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu694",
+                                          "text": "청약자격"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu695",
+                                          "text": "특별공급"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu696",
+                                          "text": "청약신청방법"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu697",
+                                          "text": "당첨자 선정"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu761",
+                                          "text": "무순위/잔여세대"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu100265",
+                                          "text": "사전청약"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu656",
+                                  "text": "오피스텔/생활숙박시설/도시형/(공공지원)민간임대"
+                                },
+                                {
+                                  "html_element": "ul",
+                                  "children": [
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu698",
+                                          "text": "청약주택"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu699",
+                                          "text": "청약신청방법"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "li",
+                                      "children": [
+                                        {
+                                          "html_element": "a",
+                                          "id": "menu700",
+                                          "text": "당첨자 선정"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu657",
+                                  "text": "주택청약 상품정보"
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu100121",
+                                  "text": "규제지역정보"
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu658",
+                                  "text": "주택청약 용어설명"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "html_element": "li",
+                      "children": [
+                        {
+                          "html_element": "a",
+                          "text": "청약소통방"
+                        },
+                        {
+                          "html_element": "ul",
+                          "children": [
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu660",
+                                  "text": "공지사항"
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu661",
+                                  "text": "자주묻는질문"
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu100156",
+                                  "text": "APT당첨사실조회"
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu100174",
+                                  "text": "분양권 정보(전매제한등)"
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "li",
+                              "children": [
+                                {
+                                  "html_element": "a",
+                                  "id": "menu100267",
+                                  "text": "입주(예정)정보"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "html_element": "div",
+                  "class_name": "foot_wrap",
+                  "children": [
+                    {
+                      "html_element": "ul",
+                      "class_name": "foot_link",
+                      "children": [
+                        {
+                          "html_element": "li",
+                          "children": [
+                            {
+                              "html_element": "a",
+                              "children": [
+                                {
+                                  "html_element": "b",
+                                  "class_name": "color_blue",
+                                  "text": "개인정보처리방침"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "html_element": "li",
+                          "children": [
+                            {
+                              "html_element": "a",
+                              "text": "모바일 사용에 대한 안내"
+                            }
+                          ]
+                        },
+                        {
+                          "html_element": "li",
+                          "children": [
+                            {
+                              "html_element": "a",
+                              "text": "이메일 추출방지정책"
+                            }
+                          ]
+                        },
+                        {
+                          "html_element": "li",
+                          "children": [
+                            {
+                              "html_element": "a",
+                              "text": "보안프로그램"
+                            }
+                          ]
+                        },
+                        {
+                          "html_element": "li",
+                          "children": [
+                            {
+                              "html_element": "a",
+                              "text": "공동인증서 관리"
+                            }
+                          ]
+                        },
+                        {
+                          "html_element": "li",
+                          "children": [
+                            {
+                              "html_element": "a",
+                              "text": "원격연결"
+                            }
+                          ]
+                        },
+                        {
+                          "html_element": "li",
+                          "children": [
+                            {
+                              "html_element": "button",
+                              "id": "btn_sitemap",
+                              "text": "사이트맵"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "html_element": "div",
+                      "class_name": "custom_info",
+                      "children": [
+                        {
+                          "html_element": "div",
+                          "children": [
+                            {
+                              "html_element": "a",
+                              "class_name": "pcTel",
+                              "children": [
+                                {
+                                  "html_element": "b",
+                                  "text": "1644-",
+                                  "children": [
+                                    {
+                                      "html_element": "span",
+                                      "text": "칠사사오"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "html_element": "div",
+                          "children": [
+                            {
+                              "html_element": "small",
+                              "text": "(월~금 09:00~17:30) 상담내용은 법적효력이 없으니, 참고용으로 활용해 주시기 바랍니다."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "html_element": "div",
+                      "id": "divTab",
+                      "class_name": "h_top_link2",
+                      "text": "<a href=\"javascript:$net.href('/co/coa/selectMainView.do');\" class=\"apply2\"><i class=\"xi-home-o\"></i>청약홈</a>",
+                      "children": [
+                        {
+                          "html_element": "a",
+                          "class_name": "bank2",
+                          "text": "대행은행"
+                        },
+                        {
+                          "html_element": "a",
+                          "class_name": "busi2",
+                          "text": "사업주체"
+                        }
+                      ]
+                    },
+                    {
+                      "html_element": "div",
+                      "class_name": "foot_info",
+                      "children": [
+                        {
+                          "html_element": "img"
+                        },
+                        {
+                          "html_element": "p",
+                          "class_name": "miniTxt",
+                          "text": "(우)41068 대구광역시 동구 이노밸리로 291(신서동) <a href=\"http://www.kab.co.kr\" target=\"_blank\" title=\"[새창으로 열립니다]\">한국부동산원 <i class=\"xi-external-link\"></i></a>"
+                        },
+                        {
+                          "html_element": "span",
+                          "text": "COPYRIGHT ⓒ KOREA REAL ESTATE BOARD, ALL RIGHTS RESERVED."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "html_element": "div",
+              "class_name": "gnb_bg"
+            }
+          ]
+        },
+        {
+          "html_element": "div",
+          "class_name": "body_bg"
+        },
+        {
+          "html_element": "div",
+          "id": "sitemap",
+          "children": [
+            {
+              "html_element": "div",
+              "class_name": "guide",
+              "children": [
+                {
+                  "html_element": "div",
+                  "class_name": "site_box",
+                  "children": [
+                    {
+                      "html_element": "ul",
+                      "class_name": "load_nav"
+                    },
+                    {
+                      "html_element": "button",
+                      "class_name": "close_btn",
+                      "children": [
+                        {
+                          "html_element": "i",
+                          "class_name": "xi xi-close"
+                        },
+                        {
+                          "html_element": "span",
+                          "class_name": "blind",
+                          "text": "사이트맵 닫기"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "html_element": "div",
+          "id": "content",
+          "class_name": "sub_content",
+          "text": "배너 슬라이드 추가 스크립트",
+          "children": [
+            {
+              "html_element": "div",
+              "class_name": "sub_visu info",
+              "children": [
+                {
+                  "html_element": "div",
+                  "class_name": "sub_visu_box",
+                  "children": [
+                    {
+                      "html_element": "div",
+                      "class_name": "sub_visu_txt",
+                      "children": [
+                        {
+                          "html_element": "h5",
+                          "text": "청약일정 및 통계"
+                        },
+                        {
+                          "html_element": "div",
+                          "class_name": "lnb_wrap",
+                          "children": [
+                            {
+                              "html_element": "ul",
+                              "id": "naviUl",
+                              "class_name": "lnb_box",
+                              "children": [
+                                {
+                                  "html_element": "li",
+                                  "children": [
+                                    {
+                                      "html_element": "a",
+                                      "children": [
+                                        {
+                                          "html_element": "i",
+                                          "class_name": "xi-home"
+                                        },
+                                        {
+                                          "html_element": "span",
+                                          "class_name": "blind",
+                                          "text": "홈으로"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "html_element": "li",
+                                  "class_name": "mo_none",
+                                  "data-mid": "636",
+                                  "text": "청약일정 및 통계",
+                                  "children": [
+                                    {
+                                      "html_element": "i",
+                                      "class_name": "xi-angle-right-thin"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "html_element": "li",
+                                  "class_name": "mo_none",
+                                  "data-mid": "650",
+                                  "data-umid": "636",
+                                  "text": "분양정보/경쟁률",
+                                  "children": [
+                                    {
+                                      "html_element": "i",
+                                      "class_name": "xi-angle-right-thin"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "html_element": "li",
+                                  "data-mid": "687",
+                                  "data-umid": "650",
+                                  "children": [
+                                    {
+                                      "html_element": "a",
+                                      "text": "오피스텔/생활숙박시설/도시형/(공공지원)민간임대",
+                                      "children": [
+                                        {
+                                          "html_element": "i",
+                                          "class_name": "xi-angle-right-thin"
+                                        },
+                                        {
+                                          "html_element": "img"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "html_element": "ul",
+                                      "children": [
+                                        {
+                                          "html_element": "li",
+                                          "children": [
+                                            {
+                                              "html_element": "a",
+                                              "text": "APT"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "html_element": "li",
+                                          "children": [
+                                            {
+                                              "html_element": "a",
+                                              "text": "오피스텔/생활숙박시설/도시형/(공공지원)민간임대"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "html_element": "li",
+                                          "children": [
+                                            {
+                                              "html_element": "a",
+                                              "text": "무순위/잔여세대"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "html_element": "li",
+                                          "children": [
+                                            {
+                                              "html_element": "a",
+                                              "text": "임의공급"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "html_element": "div",
+              "id": "subContent",
+              "class_name": "sub_content_box",
+              "children": [
+                {
+                  "html_element": "h4",
+                  "class_name": "sub_tit",
+                  "text": "오피스텔/생활숙박시설/도시형생활주택/(공공지원)민간임대/경쟁률"
+                },
+                {
+                  "html_element": "div",
+                  "class_name": "line_box noti_line",
+                  "children": [
+                    {
+                      "html_element": "div",
+                      "class_name": "line_content",
+                      "children": [
+                        {
+                          "html_element": "p",
+                          "text": "청약예정 또는 과거 5년 이내(‘18.2월 이후) 공급주택의 분양정보와 경쟁률을 확인하실 수 있습니다."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "html_element": "h5",
+                  "class_name": "sub_sub_tit mb_10",
+                  "text": "주택조회",
+                  "children": [
+                    {
+                      "html_element": "span",
+                      "text": "(최대 12개월까지 조회가능)"
+                    }
+                  ]
+                },
+                {
+                  "html_element": "div",
+                  "class_name": "search_wrap",
+                  "children": [
+                    {
+                      "html_element": "div",
+                      "class_name": "search_box search_01",
+                      "children": [
+                        {
+                          "html_element": "form",
+                          "id": "pbSearchForm",
+                          "children": [
+                            {
+                              "html_element": "div",
+                              "class_name": "search_row",
+                              "children": [
+                                {
+                                  "html_element": "div",
+                                  "class_name": "select_st",
+                                  "children": [
+                                    {
+                                      "html_element": "label",
+                                      "class_name": "blind",
+                                      "text": "시작년도"
+                                    },
+                                    {
+                                      "html_element": "select",
+                                      "id": "start_year",
+                                      "children": [
+                                        {
+                                          "html_element": "option",
+                                          "text": "2024년 04월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2024년 03월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2024년 02월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2024년 01월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 12월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 11월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 10월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 09월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 08월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 07월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 06월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 05월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 04월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 03월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 02월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 01월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 12월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 11월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 10월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 09월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 08월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 07월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 06월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 05월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 04월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 03월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 02월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 01월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 12월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 11월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 10월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 09월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 08월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 07월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 06월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 05월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 04월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 03월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 02월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 01월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 12월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 11월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 10월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 09월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 08월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 07월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 06월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 05월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 04월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 03월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 02월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 01월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2019년 12월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2019년 11월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2019년 10월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2019년 09월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2019년 08월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2019년 07월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2019년 06월"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "html_element": "span",
+                                  "text": "~"
+                                },
+                                {
+                                  "html_element": "div",
+                                  "class_name": "select_st end_year",
+                                  "children": [
+                                    {
+                                      "html_element": "label",
+                                      "class_name": "blind",
+                                      "text": "마침년도"
+                                    },
+                                    {
+                                      "html_element": "select",
+                                      "id": "end_year",
+                                      "children": [
+                                        {
+                                          "html_element": "option",
+                                          "text": "2024년 05월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2024년 04월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2024년 03월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2024년 02월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2024년 01월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 12월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 11월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 10월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 09월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 08월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 07월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 06월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 05월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 04월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 03월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 02월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2023년 01월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 12월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 11월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 10월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 09월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 08월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 07월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 06월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 05월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 04월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 03월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 02월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2022년 01월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 12월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 11월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 10월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 09월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 08월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 07월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 06월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 05월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 04월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 03월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 02월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2021년 01월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 12월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 11월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 10월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 09월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 08월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 07월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 06월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 05월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 04월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 03월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 02월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2020년 01월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2019년 12월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2019년 11월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2019년 10월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2019년 09월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2019년 08월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2019년 07월"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "2019년 06월"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "div",
+                              "class_name": "search_row",
+                              "children": [
+                                {
+                                  "html_element": "div",
+                                  "class_name": "select_st",
+                                  "children": [
+                                    {
+                                      "html_element": "label",
+                                      "class_name": "blind",
+                                      "text": "주택구분"
+                                    },
+                                    {
+                                      "html_element": "select",
+                                      "id": "cate01",
+                                      "children": [
+                                        {
+                                          "html_element": "option",
+                                          "text": "주택구분 전체"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "도시형생활주택"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "오피스텔"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "민간임대"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "생활형숙박시설"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "공공지원민간임대"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "html_element": "div",
+                                  "class_name": "select_st",
+                                  "children": [
+                                    {
+                                      "html_element": "label",
+                                      "class_name": "blind",
+                                      "text": "공급지역"
+                                    },
+                                    {
+                                      "html_element": "select",
+                                      "id": "cate02",
+                                      "children": [
+                                        {
+                                          "html_element": "option",
+                                          "text": "공급지역 전체"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "강원"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "경기"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "경남"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "경북"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "광주"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "대구"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "대전"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "부산"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "서울"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "세종"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "울산"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "인천"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "전남"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "전북"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "제주"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "충남"
+                                        },
+                                        {
+                                          "html_element": "option",
+                                          "text": "충북"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "html_element": "label",
+                                  "class_name": "blind",
+                                  "text": "주택명(시행사명)"
+                                },
+                                {
+                                  "html_element": "input",
+                                  "id": "houseNm"
+                                },
+                                {
+                                  "html_element": "button",
+                                  "class_name": "search_btn",
+                                  "text": "조회",
+                                  "children": [
+                                    {
+                                      "html_element": "img"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "html_element": "span",
+                  "class_name": "useBrow txt_r",
+                  "children": [
+                    {
+                      "html_element": "button",
+                      "id": "btnalarm",
+                      "class_name": "btn_org",
+                      "text": "알림 신청"
+                    }
+                  ]
+                },
+                {
+                  "html_element": "h5",
+                  "class_name": "sub_sub_tit mb_10",
+                  "text": "조회 결과"
+                },
+                {
+                  "html_element": "ul",
+                  "class_name": "bul_list line_list",
+                  "children": [
+                    {
+                      "html_element": "li",
+                      "text": "주택명을 클릭하시면 입주자모집공고 정보를 확인하실 수 있습니다."
+                    },
+                    {
+                      "html_element": "li",
+                      "text": "주택명, 청약기간, 당첨자발표는 각 항목명을 클릭하시면 해당 항목별 오름 또는 내림차순으로 정렬됩니다."
+                    },
+                    {
+                      "html_element": "li",
+                      "text": "본 정보는 사실과 차이가 있을 수 있으니 청약신청 시 반드시 해당 \"입주자모집공고\" 내용을 확인 후 그에 따라 신청하시기 바랍니다."
+                    }
+                  ]
+                },
+                {
+                  "html_element": "div",
+                  "class_name": "txt_r",
+                  "children": [
+                    {
+                      "html_element": "p",
+                      "class_name": "total_txt dis_in_imp",
+                      "children": [
+                        {
+                          "html_element": "span",
+                          "text": "총게시물 :",
+                          "children": [
+                            {
+                              "html_element": "b",
+                              "class_name": "color_blue",
+                              "text": "89"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "html_element": "div",
+                  "class_name": "tbl_scroll mt_10",
+                  "children": [
+                    {
+                      "html_element": "table",
+                      "class_name": "tbl_st tbl_tb tbl_bg_n tbl_center mTbl type35",
+                      "children": [
+                        {
+                          "html_element": "caption",
+                          "class_name": "blind",
+                          "text": "오피스텔/생활숙박시설/도시형/(공공지원)민간임대 분양정보/경쟁률 검색 조회결과"
+                        },
+                        {
+                          "html_element": "colgroup",
+                          "children": [
+                            {
+                              "html_element": "col"
+                            },
+                            {
+                              "html_element": "col"
+                            },
+                            {
+                              "html_element": "col"
+                            },
+                            {
+                              "html_element": "col"
+                            },
+                            {
+                              "html_element": "col"
+                            },
+                            {
+                              "html_element": "col"
+                            },
+                            {
+                              "html_element": "col"
+                            },
+                            {
+                              "html_element": "col"
+                            }
+                          ]
+                        },
+                        {
+                          "html_element": "thead",
+                          "children": [
+                            {
+                              "html_element": "tr",
+                              "id": "listThead",
+                              "data-odrsecd": "",
+                              "data-odrmth": "",
+                              "data-odrmthnext": "01",
+                              "children": [
+                                {
+                                  "html_element": "th",
+                                  "text": "지역"
+                                },
+                                {
+                                  "html_element": "th",
+                                  "text": "주택구분"
+                                },
+                                {
+                                  "html_element": "th",
+                                  "children": [
+                                    {
+                                      "html_element": "button",
+                                      "class_name": "orderby",
+                                      "data-odrsecd": "01",
+                                      "data-odrmth": "01",
+                                      "text": "주택명",
+                                      "children": [
+                                        {
+                                          "html_element": "span",
+                                          "children": [
+                                            {
+                                              "html_element": "i",
+                                              "class_name": "xi-caret-up-min"
+                                            },
+                                            {
+                                              "html_element": "i",
+                                              "class_name": "xi-caret-down-min"
+                                            },
+                                            {
+                                              "html_element": "b",
+                                              "class_name": "blind",
+                                              "text": "순으로 정렬"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "html_element": "th",
+                                  "text": "시행사"
+                                },
+                                {
+                                  "html_element": "th",
+                                  "text": "모집공고일"
+                                },
+                                {
+                                  "html_element": "th",
+                                  "children": [
+                                    {
+                                      "html_element": "button",
+                                      "class_name": "orderby",
+                                      "data-odrsecd": "02",
+                                      "data-odrmth": "01",
+                                      "text": "청약기간",
+                                      "children": [
+                                        {
+                                          "html_element": "span",
+                                          "children": [
+                                            {
+                                              "html_element": "i",
+                                              "class_name": "xi-caret-up-min"
+                                            },
+                                            {
+                                              "html_element": "i",
+                                              "class_name": "xi-caret-down-min"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "html_element": "b",
+                                          "class_name": "blind",
+                                          "text": "순으로 정렬"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "html_element": "th",
+                                  "children": [
+                                    {
+                                      "html_element": "button",
+                                      "class_name": "orderby",
+                                      "data-odrsecd": "03",
+                                      "data-odrmth": "01",
+                                      "text": "당첨자발표",
+                                      "children": [
+                                        {
+                                          "html_element": "span",
+                                          "children": [
+                                            {
+                                              "html_element": "i",
+                                              "class_name": "xi-caret-up-min"
+                                            },
+                                            {
+                                              "html_element": "i",
+                                              "class_name": "xi-caret-down-min"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "html_element": "b",
+                                          "class_name": "blind",
+                                          "text": "순으로 정렬"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "html_element": "th",
+                                  "text": "경쟁률"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "html_element": "tbody",
+                          "children": [
+                            {
+                              "html_element": "tr",
+                              "data-pbno": "2024850008",
+                              "data-hmno": "2024850008",
+                              "data-hsecd": "03",
+                              "data-honm": "성산 삼정그린코아 웰레스트",
+                              "children": [
+                                {
+                                  "html_element": "td",
+                                  "text": "경남"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "word_cut",
+                                  "text": "공공지원민간임대"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "txt_l",
+                                  "children": [
+                                    {
+                                      "html_element": "a",
+                                      "children": [
+                                        {
+                                          "html_element": "b",
+                                          "text": "성산 삼정그린코아 웰레스트",
+                                          "children": [
+                                            {
+                                              "html_element": "img",
+                                              "class_name": "new_ic"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "word_cut",
+                                  "text": "창원뉴스테이 주식회사"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-24"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-29 ~ 2024-04-29"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-05-03"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "children": [
+                                    {
+                                      "html_element": "button",
+                                      "class_name": "btn_tbl btn_cp",
+                                      "data-show": "0",
+                                      "text": "경쟁률"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "tr",
+                              "data-pbno": "2024950026",
+                              "data-hmno": "2024950026",
+                              "data-hsecd": "02",
+                              "data-honm": "북수원자이렉스비아",
+                              "children": [
+                                {
+                                  "html_element": "td",
+                                  "text": "경기"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "word_cut",
+                                  "text": "민간임대"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "txt_l",
+                                  "children": [
+                                    {
+                                      "html_element": "a",
+                                      "children": [
+                                        {
+                                          "html_element": "b",
+                                          "text": "북수원자이렉스비아"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "word_cut",
+                                  "text": "111-1구역(정자지구) 주택재개발정비사업조합"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-16"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-22 ~ 2024-04-23"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-26"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "children": [
+                                    {
+                                      "html_element": "button",
+                                      "class_name": "btn_tbl btn_cp",
+                                      "data-show": "1",
+                                      "text": "경쟁률"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "tr",
+                              "data-pbno": "2024950025",
+                              "data-hmno": "2024950025",
+                              "data-hsecd": "02",
+                              "data-honm": "엘루크 방배 서리풀(도시형생활주택)",
+                              "children": [
+                                {
+                                  "html_element": "td",
+                                  "text": "서울"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "word_cut",
+                                  "text": "도시형생활주택"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "txt_l",
+                                  "children": [
+                                    {
+                                      "html_element": "a",
+                                      "children": [
+                                        {
+                                          "html_element": "b",
+                                          "text": "엘루크 방배 서리풀(도시형생활주택)"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "word_cut",
+                                  "text": "주식회사비와이디산업개발,주식회사제이앤유개발,주식회사조이컨설팅"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-15"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-25 ~ 2024-04-25"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-30"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "children": [
+                                    {
+                                      "html_element": "button",
+                                      "class_name": "btn_tbl btn_cp",
+                                      "data-show": "1",
+                                      "text": "경쟁률"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "tr",
+                              "data-pbno": "2024950022",
+                              "data-hmno": "2024950022",
+                              "data-hsecd": "02",
+                              "data-honm": "한울에이치밸리움 더하이클래스(오피스텔)",
+                              "children": [
+                                {
+                                  "html_element": "td",
+                                  "text": "서울"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "word_cut",
+                                  "text": "오피스텔"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "txt_l",
+                                  "children": [
+                                    {
+                                      "html_element": "a",
+                                      "children": [
+                                        {
+                                          "html_element": "b",
+                                          "text": "한울에이치밸리움 더하이클래스(오피스텔)"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "word_cut",
+                                  "text": "한울"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-12"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-17 ~ 2024-04-19"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-24"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "children": [
+                                    {
+                                      "html_element": "button",
+                                      "class_name": "btn_tbl btn_cp",
+                                      "data-show": "1",
+                                      "text": "경쟁률"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "tr",
+                              "data-pbno": "2024950024",
+                              "data-hmno": "2024950024",
+                              "data-hsecd": "02",
+                              "data-honm": "현대 프라힐스 소사역 더프라임",
+                              "children": [
+                                {
+                                  "html_element": "td",
+                                  "text": "경기"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "word_cut",
+                                  "text": "오피스텔"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "txt_l",
+                                  "children": [
+                                    {
+                                      "html_element": "a",
+                                      "children": [
+                                        {
+                                          "html_element": "b",
+                                          "text": "현대 프라힐스 소사역 더프라임"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "word_cut",
+                                  "text": "케이비부동산신탁(주)"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-09"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-15 ~ 2024-04-16"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-19"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "children": [
+                                    {
+                                      "html_element": "button",
+                                      "class_name": "btn_tbl btn_cp",
+                                      "data-show": "1",
+                                      "text": "경쟁률"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "tr",
+                              "data-pbno": "2024950023",
+                              "data-hmno": "2024950023",
+                              "data-hsecd": "02",
+                              "data-honm": "여의도 큐브스테이트 주상복합 오피스텔",
+                              "children": [
+                                {
+                                  "html_element": "td",
+                                  "text": "서울"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "word_cut",
+                                  "text": "오피스텔"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "txt_l",
+                                  "children": [
+                                    {
+                                      "html_element": "a",
+                                      "children": [
+                                        {
+                                          "html_element": "b",
+                                          "text": "여의도 큐브스테이트 주상복합 오피스텔"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "word_cut",
+                                  "text": "(주)유진컨설팅"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-05"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-11 ~ 2024-04-16"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-19"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "children": [
+                                    {
+                                      "html_element": "button",
+                                      "class_name": "btn_tbl btn_cp",
+                                      "data-show": "1",
+                                      "text": "경쟁률"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "tr",
+                              "data-pbno": "2024950020",
+                              "data-hmno": "2024950020",
+                              "data-hsecd": "02",
+                              "data-honm": "해링턴 플레이스 동대구",
+                              "children": [
+                                {
+                                  "html_element": "td",
+                                  "text": "대구"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "word_cut",
+                                  "text": "민간임대"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "txt_l",
+                                  "children": [
+                                    {
+                                      "html_element": "a",
+                                      "children": [
+                                        {
+                                          "html_element": "b",
+                                          "text": "해링턴 플레이스 동대구"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "word_cut",
+                                  "text": "신암6재정비촉진구역 주택재개발정비사업조합"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-03"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-08 ~ 2024-04-09"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-15"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "children": [
+                                    {
+                                      "html_element": "button",
+                                      "class_name": "btn_tbl btn_cp",
+                                      "data-show": "1",
+                                      "text": "경쟁률"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "tr",
+                              "data-pbno": "2024950021",
+                              "data-hmno": "2024950021",
+                              "data-hsecd": "02",
+                              "data-honm": "힐스테이트자이 계양",
+                              "children": [
+                                {
+                                  "html_element": "td",
+                                  "text": "인천"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "word_cut",
+                                  "text": "민간임대"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "txt_l",
+                                  "children": [
+                                    {
+                                      "html_element": "a",
+                                      "children": [
+                                        {
+                                          "html_element": "b",
+                                          "text": "힐스테이트자이 계양"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "word_cut",
+                                  "text": "계양1구역주택재개발정비사업조합"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-03-28"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-02 ~ 2024-04-03"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-09"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "children": [
+                                    {
+                                      "html_element": "button",
+                                      "class_name": "btn_tbl btn_cp",
+                                      "data-show": "1",
+                                      "text": "경쟁률"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "tr",
+                              "data-pbno": "2024850006",
+                              "data-hmno": "2024850006",
+                              "data-hsecd": "03",
+                              "data-honm": "양산 사송지구 B-8BL 사송 롯데캐슬",
+                              "children": [
+                                {
+                                  "html_element": "td",
+                                  "text": "경남"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "word_cut",
+                                  "text": "공공지원민간임대"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "txt_l",
+                                  "children": [
+                                    {
+                                      "html_element": "a",
+                                      "children": [
+                                        {
+                                          "html_element": "b",
+                                          "text": "양산 사송지구 B-8BL 사송 롯데캐슬"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "word_cut",
+                                  "text": "(주)엘티대한제8호위탁관리부동산투자회사"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-03-27"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-02 ~ 2024-04-03"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-09"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "children": [
+                                    {
+                                      "html_element": "button",
+                                      "class_name": "btn_tbl btn_cp",
+                                      "data-show": "1",
+                                      "text": "경쟁률"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "tr",
+                              "data-pbno": "2024850007",
+                              "data-hmno": "2024850007",
+                              "data-hsecd": "03",
+                              "data-honm": "서울은평뉴타운 디에트르 더퍼스트",
+                              "children": [
+                                {
+                                  "html_element": "td",
+                                  "text": "서울"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "word_cut",
+                                  "text": "공공지원민간임대"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "txt_l",
+                                  "children": [
+                                    {
+                                      "html_element": "a",
+                                      "children": [
+                                        {
+                                          "html_element": "b",
+                                          "text": "서울은평뉴타운 디에트르 더퍼스트"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "html_element": "td",
+                                  "class_name": "word_cut",
+                                  "text": "대방건설 주식회사"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-03-26"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-01 ~ 2024-04-02"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "text": "2024-04-05"
+                                },
+                                {
+                                  "html_element": "td",
+                                  "children": [
+                                    {
+                                      "html_element": "button",
+                                      "class_name": "btn_tbl btn_cp",
+                                      "data-show": "1",
+                                      "text": "경쟁률"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "html_element": "div",
+                  "class_name": "paging_wrap",
+                  "children": [
+                    {
+                      "html_element": "div",
+                      "class_name": "pageview",
+                      "children": [
+                        {
+                          "html_element": "div",
+                          "id": "paging",
+                          "children": [
+                            {
+                              "html_element": "a",
+                              "class_name": "active",
+                              "text": "1"
+                            },
+                            {
+                              "html_element": "a",
+                              "text": "2"
+                            },
+                            {
+                              "html_element": "a",
+                              "text": "3"
+                            },
+                            {
+                              "html_element": "a",
+                              "text": "4"
+                            },
+                            {
+                              "html_element": "a",
+                              "text": "5"
+                            },
+                            {
+                              "html_element": "a",
+                              "text": "6"
+                            },
+                            {
+                              "html_element": "a",
+                              "text": "7"
+                            },
+                            {
+                              "html_element": "a",
+                              "text": "8"
+                            },
+                            {
+                              "html_element": "a",
+                              "text": "9"
+                            },
+                            {
+                              "html_element": "input",
+                              "id": "pageIndex"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "html_element": "div",
+      "id": "divForPopup"
+    },
+    {
+      "html_element": "div",
+      "id": "commonProgressBar",
+      "class_name": "loding_wrap",
+      "children": [
+        {
+          "html_element": "div",
+          "class_name": "lod_wrap_box",
+          "children": [
+            {
+              "html_element": "div",
+              "class_name": "lod_box",
+              "children": [
+                {
+                  "html_element": "i",
+                  "class_name": "xi-spinner-2 xi-spin"
+                },
+                {
+                  "html_element": "p",
+                  "text": "처리중입니다."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "html_element": "div",
+      "id": "capture_chrome",
+      "data-v-app": ""
+    },
+    {
+      "html_element": "div",
+      "class_name": "ap-ext ap-ext-naver_shopping",
+      "children": [
+        {
+          "html_element": "div",
+          "class_name": "ap-base ap-base--ltr ap-theme--dark skiptranslate",
+          "children": [
+            {
+              "html_element": "div"
+            },
+            {
+              "html_element": "div"
+            },
+            {
+              "html_element": "div",
+              "children": [
+                {
+                  "html_element": "div",
+                  "class_name": "ap-sbi",
+                  "children": [
+                    {
+                      "html_element": "div",
+                      "class_name": "ap-sbi-aside",
+                      "children": [
+                        {
+                          "html_element": "div",
+                          "class_name": "ap-sbi-aside-btn-minimize",
+                          "children": [
+                            {
+                              "html_element": "img",
+                              "class_name": "ap-sbi-img-thumb"
+                            },
+                            {
+                              "html_element": "i",
+                              "class_name": "ap-sbi-aside-btn-minimize__icon ap-icon-chevron-right"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "html_element": "div",
+                  "class_name": "ap-sbi-compare-bar-wrapper",
+                  "children": [
+                    {
+                      "html_element": "div",
+                      "class_name": "ap-sbi-compare-bar__inner",
+                      "children": [
+                        {
+                          "html_element": "div",
+                          "class_name": "ap-sbi-compare-bar-compared-list-wrapper",
+                          "children": [
+                            {
+                              "html_element": "div",
+                              "class_name": "ap-sbi-compare-bar-next ap-sbi-compare-bar-next__prev ap-icon-chevron-left ap-is-disabled"
+                            },
+                            {
+                              "html_element": "div",
+                              "class_name": "ap-sbi-compare-bar-compared-list-container",
+                              "children": [
+                                {
+                                  "html_element": "div",
+                                  "class_name": "ap-sbi-compare-bar-compared-list"
+                                }
+                              ]
+                            },
+                            {
+                              "html_element": "div",
+                              "class_name": "ap-sbi-compare-bar-next ap-sbi-compare-bar-next__next ap-icon-chevron-right ap-is-disabled"
+                            }
+                          ]
+                        },
+                        {
+                          "html_element": "div",
+                          "class_name": "ap-sbi-compare-bar-ctrls ap-sbi-compare-bar-ctrls__compare ap-is-disabled",
+                          "text": "비교 (0/20)"
+                        },
+                        {
+                          "html_element": "div",
+                          "class_name": "ap-sbi-compare-bar-ctrls ap-sbi-compare-bar-ctrls__clear ap-is-disabled",
+                          "text": "모두 지우기"
+                        },
+                        {
+                          "html_element": "div",
+                          "class_name": "ap-sbi-compare-bar-ctrls ap-sbi-compare-bar-ctrls__close ap-icon-close"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "html_element": "div"
+            },
+            {
+              "html_element": "div"
+            },
+            {
+              "html_element": "div"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "html_element": "div",
+      "id": "volume-booster-visusalizer",
+      "children": [
+        {
+          "html_element": "div",
+          "class_name": "sound",
+          "children": [
+            {
+              "html_element": "div",
+              "class_name": "sound-icon"
+            },
+            {
+              "html_element": "div",
+              "class_name": "sound-wave sound-wave_one"
+            },
+            {
+              "html_element": "div",
+              "class_name": "sound-wave sound-wave_two"
+            },
+            {
+              "html_element": "div",
+              "class_name": "sound-wave sound-wave_three"
+            }
+          ]
+        },
+        {
+          "html_element": "div",
+          "class_name": "segments-box",
+          "children": [
+            {
+              "html_element": "div",
+              "class_name": "segment",
+              "data-range": "1-20",
+              "children": [
+                {
+                  "html_element": "span"
+                }
+              ]
+            },
+            {
+              "html_element": "div",
+              "class_name": "segment",
+              "data-range": "21-40",
+              "children": [
+                {
+                  "html_element": "span"
+                }
+              ]
+            },
+            {
+              "html_element": "div",
+              "class_name": "segment",
+              "data-range": "41-60",
+              "children": [
+                {
+                  "html_element": "span"
+                }
+              ]
+            },
+            {
+              "html_element": "div",
+              "class_name": "segment",
+              "data-range": "61-80",
+              "children": [
+                {
+                  "html_element": "span"
+                }
+              ]
+            },
+            {
+              "html_element": "div",
+              "class_name": "segment",
+              "data-range": "81-100",
+              "children": [
+                {
+                  "html_element": "span"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

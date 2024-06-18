@@ -1,0 +1,2288 @@
+<html lang="ko"><head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="icon" type="image/ico" href="https://static.applyhome.co.kr/images/kabhom/common/favicon.ico">
+	<link rel="apple-touch-icon" href="https://static.applyhome.co.kr/images/kabhom/common/phone.png">
+	<link rel="shortcut icon" href="https://static.applyhome.co.kr/images/kabhom/common/phone.png"> 
+	
+	<link rel="stylesheet" type="text/css" href="/css/kabhom/main/hom.css">	
+	<link rel="stylesheet" type="text/css" href="/css/kabhom/main/scrap/virtual.css">
+	
+	
+	<link rel="stylesheet" type="text/css" href="/css/kabhom/main/leftMenu.css">
+	<!-- 배너 슬라이드 추가링크 -->
+	<link rel="stylesheet" href="/css/kabhom/main/vendors/swiper.min.css">
+    <script src="/js/kabhom/plugin/swiper.min.js"></script>
+   
+	<title>청약홈 | APT분양정보</title>
+	
+	
+	<!-- 운영일 경우에만 -->
+	
+		<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-143621263-1"></script>
+	
+	
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'UA-143621263-1');
+	</script>
+	
+	<script src="https://static.applyhome.co.kr/js/kabhom/plugin/jquery.3.1.1.min.js"></script>
+	<script src="https://static.applyhome.co.kr/js/kabhom/plugin/jquery-ui.min.js"></script>
+	<script src="/js/kabhom/main/site.js"></script>
+	
+	<!-- 성능제어 Netfunnel, 키보드보안 -->
+	<script src="/js/kabhom/com/com.js"></script>
+	
+	<!-- 성능제어 Netfunnel -->
+	<script src="https://static.applyhome.co.kr/netfunnel/netfunnel.js"></script>
+	<script src="https://static.applyhome.co.kr/netfunnel/netfunnel_skin.js"></script>
+	
+	<script>
+	document.domain = "applyhome.co.kr";
+	
+	window.onpageshow = function(event) {
+		if(event.persisted) {
+			
+			window.location.reload(true);
+		}
+	}
+	$(document).ready(function() {
+		if(gfn_isMobile()) {
+			$('#divTab').css("display","none");
+		}
+		
+		var gnbTree = $("#gnbTree > li > button");
+		$(gnbTree).on("click", function() {
+				 $(this).parents("li").siblings("li").children("ul").slideUp();
+				 $(this).parents("li").siblings("li").children("button").removeClass("on");
+				 $(this).siblings("ul").slideToggle();
+				 $(this).addClass("on");
+		 });
+	});
+	
+		
+		var strPopupYn = 'N';
+		
+		
+		if(window.name == "iframeDialog" && strPopupYn == 'Y')
+		{
+			parent.document.location.href = "/co/coz/selectComplexLoginView.do";
+		}
+
+		$(function(){
+			 
+			 /**
+			 * Description	: 상단 lnb_wrap setting
+			 */
+			$navi = $("#naviUl li").last();
+			var umid = $navi.data("umid");
+			if(umid != null) {
+				$navi.append($("#menu"+umid).next("ul").clone());
+				$navi.find('a').removeAttr('id');
+			}
+			
+			
+			var strMenuId = "menu" + $("#naviUl li").eq(1).data('mid');
+			$('#gnb #' + strMenuId).addClass('lnb_active');
+			
+			
+			
+		});
+		
+	// Form input을 name=value 형식의 object로 변환	
+	$.fn.formToObject = function() {
+		var obj = null;
+		try {
+			if (this[0].tagName && this[0].tagName.toUpperCase() == "FORM") {
+				var arr = this.serializeArray();
+				if(arr) {
+					obj = {};
+					$.each(arr, function(){
+						obj[this.name] = this.value;
+					})
+				}
+			}
+		} catch (e) {
+			alert(e.message);
+		} finally {
+			return obj;
+		}
+	};
+	
+	function formToString(form) {
+		var formData = new FormData($form);
+		
+		var object = {};
+		formData.forEach(function(value, key){
+		    object[key] = value;
+		});
+		var json = JSON.stringify(object);
+	}
+	
+	function fn_openPopup(url, title) {
+//	    if(gfn_isMobile() == false) {
+	        window.open(url, title);
+//	    }
+	}
+	
+	//팝업창에서 excepion 화면 닫기
+	function fn_closeKabExceptionDialog(){
+    	$(".ui-dialog").remove();
+    }
+	
+	</script>
+<style type="text/css">.resize-observer[data-v-8859cc6c]{position:absolute;top:0;left:0;z-index:-1;width:100%;height:100%;border:none;background-color:transparent;pointer-events:none;display:block;overflow:hidden;opacity:0}.resize-observer[data-v-8859cc6c] object{display:block;position:absolute;top:0;left:0;height:100%;width:100%;overflow:hidden;pointer-events:none;z-index:-1}</style></head>
+<body ap-style="">
+<div id="wrapper" class="wrapper">
+	<div class="navi_tab">
+		<a href="#subContent">본문 바로가기</a>
+		<a href="#gnbTree">주메뉴 바로가기</a>
+	</div>
+	<div class="m_navi_tab">
+		<a href="#m_gnb">전체메뉴가기</a>
+		<a href="#subContent">본문가기</a>
+	</div>
+	<div id="header">
+	<button type="button" class="m_gnb" id="m_gnb"><span class="blind">메뉴보기</span></button>
+		<h1 class="t_logo">
+			<a href="javascript:$net.href('/co/coa/selectMainView.do');"><img src="https://static.applyhome.co.kr/images/kabhom/common/t_logo.jpg" alt="한국부동산원 청약홈 로고"></a>
+		</h1>
+		<div class="header_wrap">
+			<div class="h_top_menu_wrap">
+				<ul class="h_top_menu">
+
+	
+					<li><a href="javascript:$net.href('/co/cob/selectSubscrptBnkbSbscrbDesc.do');"><i class="xi-user-o"></i> 마이페이지</a></li>
+	
+	
+
+				</ul>
+			</div>
+			<ul id="gnb">
+
+<li>
+	<a href="#">청약신청</a>
+	<ul>
+		<li>
+			<a href="javascript:$net.href('/ap/aph/reqst/selectSubscrtReqstAptMainView.do');" id="menu639">APT</a>
+			<ul>
+				<li><a href="javascript:$net.href('/ap/aph/reqst/selectSubscrtReqstAptMainView.do');" id="menu667">특별공급</a></li>
+				<li><a href="javascript:$net.href('/ap/aph/reqst/selectSubscrtReqstAptMainView.do?se=01&amp;ty=10');" id="menu100085">1순위/2순위</a></li>
+				<li><a href="javascript:$net.href('/ap/aph/reqst/selectSubscrtReqstAptMainView.do?se=04&amp;ty=10');" id="menu100133">무순위/잔여세대</a></li>
+				<li><a href="javascript:$net.href('/ap/aph/reqst/selectSubscrtReqstAptMainView.do?se=11&amp;ty=10');" id="menu100337">임의공급</a></li>
+				<li><a href="javascript:$net.href('/ap/aph/reqst/selectSubscrtReqstAptMainView.do?se=06&amp;ty=20');" id="menu100164">취소후재공급</a></li>
+				<li><a href="javascript:$net.href('/ap/apa/selectAptSpsplySubscrptReqstList.do');" id="menu668">청약신청 내역조회</a></li>
+				<li><a href="javascript:$net.href('/ap/apa/selectAptSpsplySubscrptCanclList.do');" id="menu669">청약취소</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/ap/apb/reqst/selectSubscrtReqstUOMainView.do');" id="menu640">오피스텔/생활숙박시설/도시형/민간임대</a>
+			<ul>
+				<li><a href="javascript:$net.href('/ap/apb/reqst/selectSubscrtReqstUOMainView.do');" id="menu670">청약신청</a></li>
+				<li><a href="javascript:$net.href('/ap/apb/selectUrbtyOfctlSubscrptReqstList.do');" id="menu671">청약신청 내역조회</a></li>
+				<li><a href="javascript:$net.href('/ap/apb/selectUrbtyOfctlSubscrptCanclList.do');" id="menu672">청약취소</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/ap/apc/reqst/selectSubscrtReqstPRMainView.do');" id="menu641">공공지원민간임대</a>
+			<ul>
+				<li><a href="javascript:$net.href('/ap/apc/reqst/selectSubscrtReqstPRMainView.do');" id="menu673">청약신청</a></li>
+				<li><a href="javascript:$net.href('/ap/apc/selectPrvateRentSubscrptReqstList.do');" id="menu674">청약신청 내역조회</a></li>
+				<li><a href="javascript:$net.href('/ap/apc/selectPrvateRentSubscrptCanclList.do');" id="menu675">청약취소</a></li>
+			</ul>
+		</li>
+	</ul>
+</li>
+<li>
+	<a href="#">민간사전청약</a>
+	<ul>
+		<li>
+			<a href="javascript:$net.href('/ap/apk/selectAPTLttotPblancListView.do');" id="menu100255">분양정보/경쟁률</a>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/ap/apk/reqst/selectSubscrtReqstAptMainView.do');" id="menu100256">청약신청</a>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/ap/apa/selectAptSpsplySubscrptReqstList.do');" id="menu100257">청약신청 내역조회</a>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/ap/apa/selectAptSpsplySubscrptCanclList.do');" id="menu100258">청약취소</a>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/ap/apk/selectAptPrzwinDescList.do');" id="menu100259">당첨조회</a>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/ap/apk/selectAdvSubscrptSchList.do');" id="menu100260">사전청약 예정단지 현황</a>
+		</li>
+	</ul>
+</li>
+<li>
+	<a href="#">청약당첨조회</a>
+	<ul>
+		<li>
+			<a href="javascript:$net.href('/wa/waa/selectAptPrzwinDescList.do');" id="menu646">APT</a>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/wa/wab/selectOfctlUrbtyPrzwinHouseList.do');" id="menu647">오피스텔/생활숙박시설/도시형/민간임대</a>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/wa/wac/selectPrvateRentPrzwinHouseList.do');" id="menu648">공공지원민간임대</a>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/wa/wad/selectMxtrHouseDrwtList.do');" id="menu649">주택조합 동·호수 추첨결과</a>
+		</li>
+	</ul>
+</li>
+<li>
+	<a href="#">청약자격확인</a>
+	<ul>
+		<li>
+			<a href="javascript:$net.href('/ra/rab/selectHshldInfoProvdAgreRequestView.do');" id="menu100022">세대구성원 등록/조회</a>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/ra/rab/selectHshldMbInfoProvdAgreView.do');" id="menu100127">세대구성원 동의</a>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/co/cob/selectSubscrptLmttCnList.do');" id="menu100128">청약제한사항확인</a>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/ap/apd/selectHousePosesnList.do');" id="menu100129">주택소유확인</a>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/ap/apd/selectSubscrptBnkbSbscrbDesc.do');" id="menu100276">청약통장</a>
+			<ul>
+				<li><a href="javascript:NetFunnel.href('/ap/apd/selectSubscrptBnkbSbscrbDesc.do', '');" id="menu100277">가입내역</a></li>
+				<li><a href="javascript:$net.href('/cu/cud/selectRankCnfrmnIssuView.do');" id="menu100278">순위확인서 발급</a></li>
+				<li><a href="javascript:$net.href('/cu/cue/selectRankCnfrmnIssuView.do');" id="menu100279">순위확인서 발급내역</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/co/coc/selectSubscrptQualfDiagMain.do');" id="menu100312">청약자격진단</a>
+		</li>
+	</ul>
+</li>
+<li>
+	<a href="#">공고단지 청약연습</a>
+	<ul>
+		<li>
+			<a href="javascript:$net.href('/ap/apr/reqst/selectSubscrtReqstAptMainView.do');" id="menu100280">공고단지</a>
+			<ul>
+				<li><a href="javascript:$net.href('/ap/apr/reqst/selectSubscrtReqstAptMainView.do');" id="menu100281">청약연습</a></li>
+				<li><a href="javascript:$net.href('/ra/raa/selectAptSpsplyPreparSubscrptReqstList.do');" id="menu100282">연습내역 조회</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/ap/apg/selectAddpntCalculatorView.do');" id="menu100125">청약가점계산기</a>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/ap/app/reqst/selectSubscrtReqstAptMainView.do');" id="menu100126">청약가상체험</a>
+		</li>
+	</ul>
+</li>
+<li>
+	<a href="#">청약일정 및 통계</a>
+	<ul>
+		<li>
+			<a href="javascript:$net.href('/ai/aib/selectSubscrptCalenderView.do');" id="menu651">청약캘린더(청약일정)</a>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/cu/cuc/selectSubscrptAllimiView.do');" id="menu652">청약알리미 신청</a>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/ai/aia/selectAPTLttotPblancListView.do');" id="menu650">분양정보/경쟁률</a>
+			<ul>
+				<li><a href="javascript:$net.href('/ai/aia/selectAPTLttotPblancListView.do');" id="menu686">APT</a></li>
+				<li><a href="javascript:$net.href('/ai/aia/selectOtherLttotPblancListView.do');" id="menu687">오피스텔/생활숙박시설/도시형/(공공지원)민간임대</a></li>
+				<li><a href="javascript:$net.href('/ai/aia/selectAPTRemndrLttotPblancListView.do');" id="menu818">무순위/잔여세대</a></li>
+				<li><a href="javascript:$net.href('/ai/aia/selectAPTOPTPblancListView.do');" id="menu100338">임의공급</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/ai/aie/selectSubscrptBnkbAllSbscrbStusView.do');" id="menu654">청약통장 통계</a>
+			<ul>
+				<li><a href="javascript:$net.href('/ai/aie/selectSubscrptBnkbAllSbscrbStusView.do');" id="menu688">전체 현황</a></li>
+				<li><a href="javascript:$net.href('/ai/aie/selectSubscrptBnkbAcctoSbscrbStusView.do');" id="menu689">통장별 현황</a></li>
+				<li><a href="javascript:$net.href('/ai/aie/selectSubscrptBnkbSbscrbPdAcctoStusView.do');" id="menu690">가입기간별 현황</a></li>
+			</ul>
+		</li>
+	</ul>
+</li>
+<li>
+	<a href="#">청약제도안내</a>
+	<ul>
+		<li>
+			<a href="javascript:$net.href('/ar/ara/selectSubscrptIntroHouseView.do');" id="menu655">APT</a>
+			<ul>
+				<li><a href="javascript:$net.href('/ar/ara/selectSubscrptIntroHouseView.do');" id="menu692">청약주택</a></li>
+				<li><a href="javascript:$net.href('/ar/ara/selectSubscrptIntroBnkbView.do');" id="menu693">청약통장</a></li>
+				<li><a href="javascript:$net.href('/ar/ara/selectSubscrptIntroQualfView.do');" id="menu694">청약자격</a></li>
+				<li><a href="javascript:$net.href('/ar/ara/selectSubscrptIntroSpetialView.do');" id="menu695">특별공급</a></li>
+				<li><a href="javascript:$net.href('/ar/ara/selectSubscrptIntroHowToReqstView.do');" id="menu696">청약신청방법</a></li>
+				<li><a href="javascript:$net.href('/ar/ara/selectSubscrptIntroPreawnerSlctnView.do');" id="menu697">당첨자 선정</a></li>
+				<li><a href="javascript:$net.href('/ar/ara/selectSubscrptIntroRemndrHshldView.do');" id="menu761">무순위/잔여세대</a></li>
+				<li><a href="javascript:$net.href('/ar/ara/selectSubscrptIntroAdvSubscrptView.do');" id="menu100265">사전청약</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/ar/arb/selectPROUSubscriptionHouseInfoView.do');" id="menu656">오피스텔/생활숙박시설/도시형/(공공지원)민간임대</a>
+			<ul>
+				<li><a href="javascript:$net.href('/ar/arb/selectPROUSubscriptionHouseInfoView.do');" id="menu698">청약주택</a></li>
+				<li><a href="javascript:$net.href('/ar/arb/selectPROUSubscriptionReqstMthInfoView.do');" id="menu699">청약신청방법</a></li>
+				<li><a href="javascript:$net.href('/ar/arb/selectPROUSubscrptIntroPreawnerSlctn.do');" id="menu700">당첨자 선정</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/ar/arb/selectsubscriptionDepositInfoView.do');" id="menu657">주택청약 상품정보</a>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/ai/aic/selectSpecltSubscrptRndAreaList.do');" id="menu100121">규제지역정보</a>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/ar/ard/selectSubscriptVocabularyView.do');" id="menu658">주택청약 용어설명</a>
+		</li>
+	</ul>
+</li>
+<li>
+	<a href="#">청약소통방</a>
+	<ul>
+		<li>
+			<a href="javascript:$net.href('/cu/cua/selectNoticeListView.do');" id="menu660">공지사항</a>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/cu/cub/selectFAQList.do');" id="menu661">자주묻는질문</a>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/wa/waa/selectAptPrzwinCnfrmnList.do');" id="menu100156">APT당첨사실조회</a>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/rs/rsa/selectResaleListView.do');" id="menu100174">분양권 정보(전매제한등)</a>
+		</li>
+		<li>
+			<a href="javascript:$net.href('/ai/aia/selectAPTMvnPrearngeHsHldcoList.do');" id="menu100267">입주(예정)정보</a>
+		</li>
+	</ul>
+</li>
+
+			</ul>
+			<div class="foot_wrap">
+				<ul class="foot_link">
+					<li><a href="javascript:$net.href('/co/coz/selectIndvdlinfoPolicyView.do');"><b class="color_blue" style="font-size: 1.2rem">개인정보처리방침</b></a></li>
+					<li><a href="javascript:$net.href('/co/coz/selectMobileUseInfoView.do');">모바일 사용에 대한 안내</a></li>
+					<li><a href="javascript:$net.href('/co/coz/selectMailColctDenialView.do');">이메일 추출방지정책</a></li>
+					<li><a href="javascript:$net.href('/co/coz/selectSecurityProgrmView.do');">보안프로그램</a></li>
+					
+					<li><a href="javascript:$net.href('/co/coz/selectCrtfctCopyView.do');">공동인증서 관리</a></li>
+					<li><a href="http://remote.kais.kr" target="_blank">원격연결</a></li>
+					<li><button type="button" id="btn_sitemap">사이트맵</button></li>
+				</ul>
+				<div class="custom_info" style="padding: 0px">
+					<div><a href="#a" class="pcTel"><b>1644-<span>칠사사오</span></b></a></div>
+                    <div>
+                        <small>(월~금 09:00~17:30) 상담내용은 법적효력이 없으니, 참고용으로 활용해 주시기 바랍니다.</small>
+                    </div>	
+				</div>
+				
+				<div class="h_top_link2" id="divTab">
+					<!--  <a href="javascript:$net.href('/co/coa/selectMainView.do');" class="apply2"><i class="xi-home-o"></i>청약홈</a>-->
+					<a href="javascript:$net.href('/kabbnk/cn/cna/selectMainView.do');" class="bank2">대행은행</a>
+					<a href="javascript:$net.href('/kabbiz/cm/cma/selectMainView.do');" class="busi2">사업주체</a>
+				</div>	
+				
+				<div class="foot_info">
+					<img src="https://static.applyhome.co.kr/images/kabhom/common/t_logo2.png" style="width: 98%">
+					<p class="miniTxt">(우)41068 대구광역시 동구 이노밸리로 291(신서동) <!-- <a href="http://www.kab.co.kr" target="_blank" title="[새창으로 열립니다]">한국부동산원 <i class="xi-external-link"></i></a> --></p>
+					<span>COPYRIGHT ⓒ KOREA REAL ESTATE BOARD, ALL RIGHTS RESERVED.</span>
+				</div>
+			</div>
+		</div>
+		<div class="gnb_bg" style="left: 0px;"></div>
+	</div>
+	<div class="body_bg" style="display: none; opacity: 1;"></div>
+
+	
+	<div id="sitemap">
+		<div class="guide">
+			<div class="site_box">
+				<ul class="load_nav">
+				</ul>
+				<button type="button" class="close_btn" onclick="javascript:slideUp('sitemap','btn_sitemap');"><i class="xi xi-close"></i><span class="blind">사이트맵 닫기</span></button>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="content" class="sub_content">
+		<div class="sub_visu info">
+			<div class="sub_visu_box">
+				<div class="sub_visu_txt">
+					<h5>
+				
+					
+						청약일정 및 통계
+					
+					
+				
+					</h5>
+					
+					
+					<div class="lnb_wrap">
+						<ul class="lnb_box" id="naviUl">
+							<li><a href="javascript:$net.href('/co/coa/selectMainView.do');"><i class="xi-home"></i><span class="blind">홈으로</span></a></li>
+							<li class="mo_none" data-mid="636"><i class="xi-angle-right-thin"></i> 청약일정 및 통계</li>
+					
+						
+							<li class="mo_none" data-mid="650" data-umid="636"><i class="xi-angle-right-thin"></i> 분양정보/경쟁률</li>
+							 
+							<li data-mid="687" data-umid="650">
+								<a href="#a"><i class="xi-angle-right-thin"></i> 오피스텔/생활숙박시설/도시형/(공공지원)민간임대 <img src="https://static.applyhome.co.kr/images/kabhom/common/lnb_arw.png" alt=""></a>
+							<ul>
+				<li><a href="javascript:$net.href('/ai/aia/selectAPTLttotPblancListView.do');">APT</a></li>
+				<li><a href="javascript:$net.href('/ai/aia/selectOtherLttotPblancListView.do');">오피스텔/생활숙박시설/도시형/(공공지원)민간임대</a></li>
+				<li><a href="javascript:$net.href('/ai/aia/selectAPTRemndrLttotPblancListView.do');">무순위/잔여세대</a></li>
+				<li><a href="javascript:$net.href('/ai/aia/selectAPTOPTPblancListView.do');">임의공급</a></li>
+			</ul></li>
+							
+						
+						
+						
+						
+						
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+<!-- 배너 슬라이드 추가 스크립트 -->
+    <script>
+    var swiper = new Swiper('.swiper-container',{
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+        },
+        spaceBetween: 30,
+        effect: 'fade',
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+  </script>
+
+
+<div class="sub_content_box" id="subContent">
+	<h4 class="sub_tit">오피스텔/생활숙박시설/도시형생활주택/(공공지원)민간임대/경쟁률</h4>
+	<div class="line_box noti_line">
+		<div class="line_content">
+			<p>청약예정 또는 과거 5년 이내(‘18.2월 이후) 공급주택의 분양정보와 경쟁률을 확인하실 수 있습니다.</p>
+		</div>
+	</div>
+	<h5 class="sub_sub_tit mb_10">주택조회 <span>(최대 12개월까지 조회가능)</span></h5>
+	<div class="search_wrap">
+		<div class="search_box search_01">
+			<form name="pbSearchForm" id="pbSearchForm">
+				<div class="search_row">
+					<div class="select_st">
+						<label for="start_year" class="blind">시작년도</label>
+						<select name="beginPd" id="start_year">
+							
+								
+									
+									
+									
+										
+											<option value="202404">2024년 04월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202403">2024년 03월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202402">2024년 02월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202401">2024년 01월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202312">2023년 12월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202311">2023년 11월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202310">2023년 10월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202309">2023년 09월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202308">2023년 08월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202307">2023년 07월</option>
+										
+									
+								
+							
+								
+									
+									
+										<option value="202306" selected="selected">2023년 06월</option>
+									
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202305">2023년 05월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202304">2023년 04월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202303">2023년 03월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202302">2023년 02월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202301">2023년 01월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202212">2022년 12월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202211">2022년 11월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202210">2022년 10월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202209">2022년 09월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202208">2022년 08월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202207">2022년 07월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202206">2022년 06월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202205">2022년 05월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202204">2022년 04월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202203">2022년 03월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202202">2022년 02월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202201">2022년 01월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202112">2021년 12월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202111">2021년 11월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202110">2021년 10월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202109">2021년 09월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202108">2021년 08월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202107">2021년 07월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202106">2021년 06월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202105">2021년 05월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202104">2021년 04월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202103">2021년 03월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202102">2021년 02월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202101">2021년 01월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202012">2020년 12월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202011">2020년 11월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202010">2020년 10월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202009">2020년 09월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202008">2020년 08월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202007">2020년 07월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202006">2020년 06월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202005">2020년 05월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202004">2020년 04월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202003">2020년 03월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202002">2020년 02월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="202001">2020년 01월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="201912">2019년 12월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="201911">2019년 11월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="201910">2019년 10월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="201909">2019년 09월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="201908">2019년 08월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="201907">2019년 07월</option>
+										
+									
+								
+							
+								
+									
+									
+									
+										
+											<option value="201906">2019년 06월</option>
+										
+									
+								
+							
+						</select>
+					</div>
+					<span>~</span>
+					<div class="select_st end_year">
+						<label for="end_year" class="blind">마침년도</label>
+						<select name="endPd" id="end_year">
+							
+								
+									
+									
+										
+											<option value="202405">2024년 05월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202404">2024년 04월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202403">2024년 03월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202402">2024년 02월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202401">2024년 01월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202312">2023년 12월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202311">2023년 11월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202310">2023년 10월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202309">2023년 09월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202308">2023년 08월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202307">2023년 07월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202306">2023년 06월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202305">2023년 05월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202304">2023년 04월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202303">2023년 03월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202302">2023년 02월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202301">2023년 01월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202212">2022년 12월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202211">2022년 11월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202210">2022년 10월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202209">2022년 09월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202208">2022년 08월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202207">2022년 07월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202206">2022년 06월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202205">2022년 05월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202204">2022년 04월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202203">2022년 03월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202202">2022년 02월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202201">2022년 01월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202112">2021년 12월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202111">2021년 11월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202110">2021년 10월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202109">2021년 09월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202108">2021년 08월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202107">2021년 07월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202106">2021년 06월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202105">2021년 05월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202104">2021년 04월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202103">2021년 03월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202102">2021년 02월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202101">2021년 01월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202012">2020년 12월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202011">2020년 11월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202010">2020년 10월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202009">2020년 09월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202008">2020년 08월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202007">2020년 07월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202006">2020년 06월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202005">2020년 05월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202004">2020년 04월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202003">2020년 03월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202002">2020년 02월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="202001">2020년 01월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="201912">2019년 12월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="201911">2019년 11월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="201910">2019년 10월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="201909">2019년 09월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="201908">2019년 08월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="201907">2019년 07월</option>
+										
+									
+								
+							
+								
+									
+									
+										
+											<option value="201906">2019년 06월</option>
+										
+									
+								
+							
+						</select>
+					</div>
+				</div>
+				<div class="search_row">
+					<div class="select_st">
+						<label for="cate01" class="blind">주택구분</label>
+						<select name="searchHouseSecd" id="cate01">
+							<option value="">주택구분 전체</option>
+							
+								
+									
+									
+										<option value="0201">도시형생활주택</option>
+									
+								
+							
+								
+									
+									
+										<option value="0202">오피스텔</option>
+									
+								
+							
+								
+									
+									
+										<option value="0203">민간임대</option>
+									
+								
+							
+								
+									
+									
+										<option value="0204">생활형숙박시설</option>
+									
+								
+							
+								
+									
+									
+										<option value="0303">공공지원민간임대</option>
+									
+								
+							
+						</select>
+					</div>
+					<div class="select_st">
+						<label for="cate02" class="blind">공급지역</label>
+						<select name="suplyAreaCode" id="cate02">
+							<option value="">공급지역 전체</option>
+							
+								
+									
+									
+										<option value="강원">강원</option>
+									
+								
+							
+								
+									
+									
+										<option value="경기">경기</option>
+									
+								
+							
+								
+									
+									
+										<option value="경남">경남</option>
+									
+								
+							
+								
+									
+									
+										<option value="경북">경북</option>
+									
+								
+							
+								
+									
+									
+										<option value="광주">광주</option>
+									
+								
+							
+								
+									
+									
+										<option value="대구">대구</option>
+									
+								
+							
+								
+									
+									
+										<option value="대전">대전</option>
+									
+								
+							
+								
+									
+									
+										<option value="부산">부산</option>
+									
+								
+							
+								
+									
+									
+										<option value="서울">서울</option>
+									
+								
+							
+								
+									
+									
+										<option value="세종">세종</option>
+									
+								
+							
+								
+									
+									
+										<option value="울산">울산</option>
+									
+								
+							
+								
+									
+									
+										<option value="인천">인천</option>
+									
+								
+							
+								
+									
+									
+										<option value="전남">전남</option>
+									
+								
+							
+								
+									
+									
+										<option value="전북">전북</option>
+									
+								
+							
+								
+									
+									
+										<option value="제주">제주</option>
+									
+								
+							
+								
+									
+									
+										<option value="충남">충남</option>
+									
+								
+							
+								
+									
+									
+										<option value="충북">충북</option>
+									
+								
+							
+						</select>
+					</div>
+					<label for="houseNm" class="blind">주택명(시행사명)</label>
+					<input type="text" placeholder="주택명(시행사명)" id="houseNm" name="houseNm" value="" maxlength="50" oninput="chkMaxLen(this)">
+					<button type="button" class="search_btn"><img src="https://static.applyhome.co.kr/images/kabhom/board/ic_search.png" alt=""> 조회</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	
+	<span class="useBrow txt_r" style="padding-right:10px; display:block"><button class="btn_org" id="btnalarm">알림 신청</button></span>
+
+	<h5 class="sub_sub_tit mb_10">조회 결과</h5>
+	<ul class="bul_list line_list">
+		<li>주택명을 클릭하시면 입주자모집공고 정보를 확인하실 수 있습니다.</li>
+		<li>주택명, 청약기간, 당첨자발표는 각 항목명을 클릭하시면 해당 항목별 오름 또는 내림차순으로 정렬됩니다.</li>
+		<li>본 정보는 사실과 차이가 있을 수 있으니 청약신청 시 반드시 해당 "입주자모집공고" 내용을 확인 후 그에 따라 신청하시기 바랍니다.</li>
+	</ul>
+
+	<div class="txt_r">
+		<p class="total_txt dis_in_imp">
+			<span>총게시물 : <b class="color_blue">89</b></span>
+		</p>
+	</div>
+
+	<div class="tbl_scroll mt_10">
+		<table class="tbl_st tbl_tb tbl_bg_n tbl_center mTbl type35">
+			<caption class="blind">오피스텔/생활숙박시설/도시형/(공공지원)민간임대 분양정보/경쟁률 검색 조회결과</caption>
+			<colgroup>
+				<col style="width:7%;">
+				<col style="width:11%;">
+				<col style="width:auto">
+				<col style="width:11%">
+				<col style="width:11%">
+				<col style="width:12%;">
+				<col style="width:11%">
+				<col style="width:8%">
+			</colgroup>
+			<thead>
+				<tr id="listThead" data-odrsecd="" data-odrmth="" data-odrmthnext="01">
+					<th scope="col">지역</th>
+					<th scope="col">주택구분</th>
+					<th scope="col"><button type="button" class="orderby" data-odrsecd="01" data-odrmth="01">주택명 <span><i class="xi-caret-up-min"></i><i class="xi-caret-down-min"></i><b class="blind">순으로 정렬</b></span></button></th>
+					<th scope="col">시행사</th>
+					<th scope="col">모집공고일</th>
+					<th scope="col"><button type="button" class="orderby" data-odrsecd="02" data-odrmth="01">청약기간 <span><i class="xi-caret-up-min"></i><i class="xi-caret-down-min"></i></span><b class="blind">순으로 정렬</b></button></th>
+					<th scope="col"><button type="button" class="orderby" data-odrsecd="03" data-odrmth="01">당첨자발표 <span><i class="xi-caret-up-min"></i><i class="xi-caret-down-min"></i></span><b class="blind">순으로 정렬</b></button></th>
+					<th scope="col">경쟁률</th>
+				</tr>
+			</thead>
+			<tbody>
+				
+					
+					
+						
+							<tr data-pbno="2024850008" data-hmno="2024850008" data-hsecd="03" data-honm="성산 삼정그린코아 웰레스트">
+								<td>경남</td>
+								<td class="word_cut">공공지원민간임대</td>
+								<td class="txt_l"><a href="#a"><b>성산 삼정그린코아 웰레스트<img src="https://static.applyhome.co.kr/images/kabhom/board/ic_new.png" alt="NEW" class="new_ic"></b></a></td>
+								<td class="word_cut">창원뉴스테이 주식회사</td>
+								<td>2024-04-24</td>
+								<td>2024-04-29 ~ 2024-04-29</td>
+								<td>2024-05-03</td>
+								<td>
+		    
+		
+									<button type="button" class="btn_tbl btn_cp" data-show="0">경쟁률</button>
+				
+		
+	
+								</td>
+							</tr>
+						
+							<tr data-pbno="2024950026" data-hmno="2024950026" data-hsecd="02" data-honm="북수원자이렉스비아">
+								<td>경기</td>
+								<td class="word_cut">민간임대</td>
+								<td class="txt_l"><a href="#a"><b>북수원자이렉스비아</b></a></td>
+								<td class="word_cut">111-1구역(정자지구) 주택재개발정비사업조합</td>
+								<td>2024-04-16</td>
+								<td>2024-04-22 ~ 2024-04-23</td>
+								<td>2024-04-26</td>
+								<td>
+		    
+		
+									<button type="button" class="btn_tbl btn_cp" data-show="1">경쟁률</button>
+				
+		
+	
+								</td>
+							</tr>
+						
+							<tr data-pbno="2024950025" data-hmno="2024950025" data-hsecd="02" data-honm="엘루크 방배 서리풀(도시형생활주택)">
+								<td>서울</td>
+								<td class="word_cut">도시형생활주택</td>
+								<td class="txt_l"><a href="#a"><b>엘루크 방배 서리풀(도시형생활주택)</b></a></td>
+								<td class="word_cut">주식회사비와이디산업개발,주식회사제이앤유개발,주식회사조이컨설팅</td>
+								<td>2024-04-15</td>
+								<td>2024-04-25 ~ 2024-04-25</td>
+								<td>2024-04-30</td>
+								<td>
+		    
+		
+									<button type="button" class="btn_tbl btn_cp" data-show="1">경쟁률</button>
+				
+		
+	
+								</td>
+							</tr>
+						
+							<tr data-pbno="2024950022" data-hmno="2024950022" data-hsecd="02" data-honm="한울에이치밸리움 더하이클래스(오피스텔)">
+								<td>서울</td>
+								<td class="word_cut">오피스텔</td>
+								<td class="txt_l"><a href="#a"><b>한울에이치밸리움 더하이클래스(오피스텔)</b></a></td>
+								<td class="word_cut">한울</td>
+								<td>2024-04-12</td>
+								<td>2024-04-17 ~ 2024-04-19</td>
+								<td>2024-04-24</td>
+								<td>
+		    
+		
+									<button type="button" class="btn_tbl btn_cp" data-show="1">경쟁률</button>
+				
+		
+	
+								</td>
+							</tr>
+						
+							<tr data-pbno="2024950024" data-hmno="2024950024" data-hsecd="02" data-honm="현대 프라힐스 소사역 더프라임">
+								<td>경기</td>
+								<td class="word_cut">오피스텔</td>
+								<td class="txt_l"><a href="#a"><b>현대 프라힐스 소사역 더프라임</b></a></td>
+								<td class="word_cut">케이비부동산신탁(주)</td>
+								<td>2024-04-09</td>
+								<td>2024-04-15 ~ 2024-04-16</td>
+								<td>2024-04-19</td>
+								<td>
+		    
+		
+									<button type="button" class="btn_tbl btn_cp" data-show="1">경쟁률</button>
+				
+		
+	
+								</td>
+							</tr>
+						
+							<tr data-pbno="2024950023" data-hmno="2024950023" data-hsecd="02" data-honm="여의도 큐브스테이트 주상복합 오피스텔">
+								<td>서울</td>
+								<td class="word_cut">오피스텔</td>
+								<td class="txt_l"><a href="#a"><b>여의도 큐브스테이트 주상복합 오피스텔</b></a></td>
+								<td class="word_cut">(주)유진컨설팅</td>
+								<td>2024-04-05</td>
+								<td>2024-04-11 ~ 2024-04-16</td>
+								<td>2024-04-19</td>
+								<td>
+		    
+		
+									<button type="button" class="btn_tbl btn_cp" data-show="1">경쟁률</button>
+				
+		
+	
+								</td>
+							</tr>
+						
+							<tr data-pbno="2024950020" data-hmno="2024950020" data-hsecd="02" data-honm="해링턴 플레이스 동대구">
+								<td>대구</td>
+								<td class="word_cut">민간임대</td>
+								<td class="txt_l"><a href="#a"><b>해링턴 플레이스 동대구</b></a></td>
+								<td class="word_cut">신암6재정비촉진구역 주택재개발정비사업조합</td>
+								<td>2024-04-03</td>
+								<td>2024-04-08 ~ 2024-04-09</td>
+								<td>2024-04-15</td>
+								<td>
+		    
+		
+									<button type="button" class="btn_tbl btn_cp" data-show="1">경쟁률</button>
+				
+		
+	
+								</td>
+							</tr>
+						
+							<tr data-pbno="2024950021" data-hmno="2024950021" data-hsecd="02" data-honm="힐스테이트자이 계양">
+								<td>인천</td>
+								<td class="word_cut">민간임대</td>
+								<td class="txt_l"><a href="#a"><b>힐스테이트자이 계양</b></a></td>
+								<td class="word_cut">계양1구역주택재개발정비사업조합</td>
+								<td>2024-03-28</td>
+								<td>2024-04-02 ~ 2024-04-03</td>
+								<td>2024-04-09</td>
+								<td>
+		    
+		
+									<button type="button" class="btn_tbl btn_cp" data-show="1">경쟁률</button>
+				
+		
+	
+								</td>
+							</tr>
+						
+							<tr data-pbno="2024850006" data-hmno="2024850006" data-hsecd="03" data-honm="양산 사송지구 B-8BL 사송 롯데캐슬">
+								<td>경남</td>
+								<td class="word_cut">공공지원민간임대</td>
+								<td class="txt_l"><a href="#a"><b>양산 사송지구 B-8BL 사송 롯데캐슬</b></a></td>
+								<td class="word_cut">(주)엘티대한제8호위탁관리부동산투자회사</td>
+								<td>2024-03-27</td>
+								<td>2024-04-02 ~ 2024-04-03</td>
+								<td>2024-04-09</td>
+								<td>
+		    
+		
+									<button type="button" class="btn_tbl btn_cp" data-show="1">경쟁률</button>
+				
+		
+	
+								</td>
+							</tr>
+						
+							<tr data-pbno="2024850007" data-hmno="2024850007" data-hsecd="03" data-honm="서울은평뉴타운 디에트르 더퍼스트">
+								<td>서울</td>
+								<td class="word_cut">공공지원민간임대</td>
+								<td class="txt_l"><a href="#a"><b>서울은평뉴타운 디에트르 더퍼스트</b></a></td>
+								<td class="word_cut">대방건설 주식회사</td>
+								<td>2024-03-26</td>
+								<td>2024-04-01 ~ 2024-04-02</td>
+								<td>2024-04-05</td>
+								<td>
+		    
+		
+									<button type="button" class="btn_tbl btn_cp" data-show="1">경쟁률</button>
+				
+		
+	
+								</td>
+							</tr>
+						
+					
+				
+			</tbody>
+		</table>
+	</div>
+
+	<div class="paging_wrap">
+		<div class="pageview">
+			<div id="paging">
+				<a href="javasctipt:void(0)" onclick="return false; " class="active" title="현재페이지">1</a><a href="?pageIndex=2" onclick="fn_link_page(2);return false; ">2</a><a href="?pageIndex=3" onclick="fn_link_page(3);return false; ">3</a><a href="?pageIndex=4" onclick="fn_link_page(4);return false; ">4</a><a href="?pageIndex=5" onclick="fn_link_page(5);return false; ">5</a><a href="?pageIndex=6" onclick="fn_link_page(6);return false; ">6</a><a href="?pageIndex=7" onclick="fn_link_page(7);return false; ">7</a><a href="?pageIndex=8" onclick="fn_link_page(8);return false; ">8</a><a href="?pageIndex=9" onclick="fn_link_page(9);return false; ">9</a>
+
+				<input type="hidden" id="pageIndex" name="pageIndex">
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+$(function(){
+    var responseMessage = "";
+    if (responseMessage != "") {
+        alert(responseMessage);
+    }
+});
+
+
+var search = {
+	checkSearchCondition : function() {
+		
+		var startYear = new Date( $('#start_year').val().substring(0, 4), $('#start_year').val().substring(4, 6), '01');
+		var endYear = new Date( $('#end_year').val().substring(0, 4), $('#end_year').val().substring(4, 6), '01' );
+		if ( !startYear || !endYear ) {
+			alert( '올바른 조회조건(년월)을 선택해 주십시오.');
+			return false;
+		} else if ( startYear > endYear ) {
+			alert( '마침년월은 시작년월보다 미래여야 합니다.');
+			return false;
+		}
+		var dif = endYear - startYear;
+		var cDay = 24 * 60 * 60 * 1000;
+		var cMonth = cDay * 30;
+		var cYear = cMonth * 12;
+		var searchPd = parseInt(dif/cMonth);
+		if ( searchPd > 11 ) {
+			alert( '검색기간은 최대 12개월까지 가능합니다.' );
+			return false;
+		}
+		
+		
+		if ( $('#houseNm').val().length > 50 ) {
+			alert("주택명(건설업체명) can not be greater than  50 characters.");	
+			$('#houseNm').val('');
+			return false;
+		}
+		
+		
+		var regApct = /[\%\&\<\>\"\']/gi;		
+		if(regApct.test($('#houseNm').val()))
+		{
+			alert("주택명(건설업체명)에 허용되지 않는 특수문자가 존재합니다.");	
+			$('#houseNm').focus();
+			return false;
+		}
+		
+		
+		var regApct = /(<([^>]+)>)/gi;		
+		if(regApct.test($('#houseNm').val()))
+		{
+			alert("주택명(건설업체명)에 허용되지 않는 문자스크립트가 존재합니다.");	
+			$('#houseNm').val('');
+			$('#houseNm').focus();
+			return false;
+		}
+		
+		return true;
+	}
+	, submit : function(pageIndex) {
+		$('#pbSearchForm').append( $('<input/>', {type:'hidden', name:'pageIndex', value:pageIndex}) );
+		$net.submit("pbSearchForm", "/ai/aia/selectOtherLttotPblancListView.do");
+	}
+}
+
+
+function fn_link_page(pageIndex) {
+	$('#pbSearchForm').append( $('<input/>', {type:'hidden', name:'orderbySecd', value:$('#listThead').data('odrsecd')}) );
+	$('#pbSearchForm').append( $('<input/>', {type:'hidden', name:'orderbyMth', value:$('#listThead').data('odrmth')}) );
+
+	$('#pbSearchForm').append( $('<input/>', {type:'hidden', name:'pageSelAt', value:'Y'}) );
+	var check = search.checkSearchCondition();
+	if ( check ) {
+		search.submit(pageIndex);
+	}
+}
+
+$(function() {
+	
+	if ( !gfn_isNull($('#listThead').data('odrsecd')) ) {
+		$('.orderby').each(function() {
+			if ( $('#listThead').data('odrsecd') == $(this).data('odrsecd') ) {
+				$(this).data('odrmth', $('#listThead').data('odrmthnext'));
+			} else {
+				$(this).data('odrmth', '01');
+			}
+		});
+		
+		$('.orderby').each(function() {
+			if ( $(this).data('odrmth') == '02' ) {
+				$(this).children('span').remove();
+				$(this).append( $('<i/>', {'class':'xi-caret-down-min'}) );
+			} else if ( $(this).data('odrmth') == '03' ) {
+				$(this).children('span').remove();
+				$(this).append( $('<i/>', {'class':'xi-caret-up-min'}) );
+			}
+		});
+	}
+	
+	
+	$(".tbl_st").on('click', '.txt_l a', function() {
+		if($('#pbDeFrm')){
+			$('#pbDeFrm').remove();
+		}
+		
+		var pbDeFrm = $('<form/>', {name:'pbDeFrm', id:'pbDeFrm'});
+		
+		$('.paging_wrap').after(pbDeFrm);
+		pbDeFrm.append( $('<input/>', {type:'hidden', name:'houseManageNo', id:'houseManageNo', value:$(this).parent().parent().data('hmno')}));
+		pbDeFrm.append( $('<input/>', {type:'hidden', name:'pblancNo', id:'pblancNo', value:$(this).parent().parent().data('pbno')}));
+		pbDeFrm.append( $('<input/>', {type:'hidden', name:'houseSecd', id:'houseSecd', value:$(this).parent().parent().data('hsecd')}));
+		
+		var oPopupOptions = new Object();
+		
+		oPopupOptions.title = "입주자모집공고 정보";
+		oPopupOptions.url = "/ai/aia/selectPRMOLttotPblancDetailView.do";
+		oPopupOptions.height = "800";
+		oPopupOptions.resizable = false;
+		oPopupOptions.formId = "pbDeFrm";
+		oPopupOptions.clazz ='pop_w_900';
+		
+		$pop.dialog(oPopupOptions);
+	});
+	
+	
+	$(".tbl_st td").on('click', '.btn_cp', function() {
+	    // 오피스텔의 경우 전문이 공고 다음날 내려가기 때문에 접수일 부터 경쟁률을 보여주기로 함.
+	    if($(this).data('show') == 0) {
+	        alert('접수일 부터 확인이 가능합니다.');
+		    return ;
+		}
+	    
+		if($('#pbRsFrm')){
+			$('#pbRsFrm').remove();
+		}
+		
+		var pbDeFrm = $('<form/>', {name:'pbRsFrm', id:'pbRsFrm'});
+		
+		$('.paging_wrap').after(pbDeFrm);
+		pbDeFrm.append( $('<input/>', {type:'hidden', name:'houseManageNo', id:'houseManageNo', value:$(this).parent().parent().data('hmno')}));
+		pbDeFrm.append( $('<input/>', {type:'hidden', name:'pblancNo', id:'pblancNo', value:$(this).parent().parent().data('pbno')}));
+		pbDeFrm.append( $('<input/>', {type:'hidden', name:'houseSecd', id:'houseSecd', value:$(this).parent().parent().data('hsecd')}));
+		pbDeFrm.append( $('<input/>', {type:'hidden', name:'houseNm', id:'houseNm', value:$(this).parent().parent().data('honm')}));
+		
+		var oPopupOptions = new Object();
+		
+		oPopupOptions.title = "청약접수 경쟁률";
+		oPopupOptions.url = "/ai/aia/selectPRMOCompetitionPopup.do";
+		oPopupOptions.height = "800";
+		oPopupOptions.resizable = false;
+		oPopupOptions.formId = "pbRsFrm";
+		oPopupOptions.clazz ='pop_w_900';
+		
+		$pop.dialog(oPopupOptions);
+	});		
+	
+	
+	$('.search_wrap .search_btn').click(function() {
+		var check = search.checkSearchCondition();
+		if ( check ) {
+			search.submit(1);
+		}
+		
+	});
+	
+	
+	$('.search_box').on('keyup', function(event) {
+		if (event.keyCode == 13) {
+			event.preventDefault();
+			$('.search_btn').trigger('click');
+		}
+	});
+	
+	
+	$('.orderby').on('click', function() {
+		var mth = $(this).data('odrmth');
+		if ( gfn_isNull(mth) ) {
+			mth = '01';
+		}
+		
+		$('#pbSearchForm').append( $('<input/>', {type:'hidden', name:'orderbySecd', value:$(this).data('odrsecd')}) );
+		$('#pbSearchForm').append( $('<input/>', {type:'hidden', name:'orderbyMth', value:mth}) );
+		
+		var check = search.checkSearchCondition();
+		if ( check ) {
+			search.submit();
+		}
+	});
+	
+	
+	$('#btnalarm').on('click', function(e) {
+		
+		$net.href("/cu/cuc/selectSubscrptAllimiView.do?INTRST=PRMO");
+	});
+});
+</script>
+
+
+
+	</div>
+</div>
+<div id="divForPopup"></div>
+
+
+<div class="loding_wrap" id="commonProgressBar">
+	<div class="lod_wrap_box">
+		<div class="lod_box">
+			<i class="xi-spinner-2 xi-spin"></i>
+			<p>처리중입니다.</p>
+		</div>
+	</div>
+</div>
+
+	
+<script>
+	var gvPgmId = "AIA02M01";
+</script>
+<script src="/js/kabhom/com/hom.core.js"></script>
+<script src="/js/kabhom/util/hom.all.js"></script>
+
+<div id="capture_chrome" data-v-app=""><!----></div><div class="ap-ext ap-ext-naver_shopping"><div class="ap-base ap-base--ltr ap-theme--dark skiptranslate"><!----><!----><!----><!----><!----><div></div><div></div><div><!----><div class="ap-sbi"><!----><!----><div class="ap-sbi-aside"><!----><div class="ap-sbi-aside-btn-minimize" style="display: none;"><img src="" class="ap-sbi-img-thumb"><i class="ap-sbi-aside-btn-minimize__icon ap-icon-chevron-right"></i></div><!----></div><!----></div><div class="ap-sbi-compare-bar-wrapper"><div class="ap-sbi-compare-bar__inner"><div class="ap-sbi-compare-bar-compared-list-wrapper"><div class="ap-sbi-compare-bar-next ap-sbi-compare-bar-next__prev ap-icon-chevron-left ap-is-disabled"></div><div class="ap-sbi-compare-bar-compared-list-container"><div class="ap-sbi-compare-bar-compared-list" style="width: 1000%; height: 100%; transform: translate3d(0px, 0px, 0px);"></div><!----></div><div class="ap-sbi-compare-bar-next ap-sbi-compare-bar-next__next ap-icon-chevron-right ap-is-disabled"></div></div><div class="ap-sbi-compare-bar-ctrls ap-sbi-compare-bar-ctrls__compare ap-is-disabled"> 비교 (0/20) </div><div class="ap-sbi-compare-bar-ctrls ap-sbi-compare-bar-ctrls__clear ap-is-disabled"> 모두 지우기 </div><div title="닫기" class="ap-sbi-compare-bar-ctrls ap-sbi-compare-bar-ctrls__close ap-icon-close"></div></div></div><!----></div><!----><div></div><div></div><div></div><!----><style id="ap-custom-style">.ap-ext-naver_shopping .ap-toolbar-tab-Bulletin .ap-toolbar-tab-tab,.ap-ext-naver_shopping .ap-toolbar-tab-Bulletin .ap-toolbar-tab-tab__inner{padding:0!important;background:none!important}.ap-ext-naver_shopping .ap-bulletin.ap-bulletin-toggle{display:none}.ap-ext-naver_shopping .ap-toolbar .ap-bulletin.ap-bulletin-toggle{display:block}.ap-ext-naver_shopping .ap-theme--dark .ap-notifications__list{display:flex;display:-ms-flexbox;flex-direction:column;-ms-flex-direction:column;flex-direction:column}.ap-ext-naver_shopping .ap-theme--dark .ap-notifications__item{margin-bottom:10px}.ap-ext-naver_shopping .ap-theme--dark .ap-notifications__item-link{background-color:#3e3e3e;border-radius:6px;padding:4px 0;border:solid 1px #3e3e3e;display:flex;display:-ms-flexbox;align-items:center;-ms-flex-align:center}.ap-ext-naver_shopping .ap-theme--dark .ap-notifications__item-link:hover{border-color:#fd860e}.ap-ext-naver_shopping .ap-theme--dark .ap-notifications__item-icon{width:60px;height:60px;flex-shrink:0;margin:0 4px;border-radius:6px;overflow:hidden}.ap-ext-naver_shopping .ap-theme--dark .ap-notifications__item-icon img{width:100%;height:100%}.ap-ext-naver_shopping .ap-theme--dark .ap-notifications__item-info{margin:0 6px}.ap-ext-naver_shopping .ap-theme--dark .ap-notifications__item-title{font-size:14px;font-weight:600;color:#ccc;line-height:1.5}.ap-ext-naver_shopping .ap-theme--dark .ap-notifications__item-title.text-orange{color:#fd860e}.ap-ext-naver_shopping .ap-theme--dark .ap-notifications__item-title.text-green{color:#04c446}.ap-ext-naver_shopping .ap-theme--dark .ap-notifications__item-desc{font-size:12px;font-weight:400;color:#ccc;display:-webkit-box;max-height:36px;overflow:hidden;line-height:18px;transition:all .2s ease-in-out;-webkit-line-clamp:2;-webkit-box-orient:vertical}.ap-ext-naver_shopping .ap-theme--light .ap-notifications__list{display:flex;display:-ms-flexbox;flex-direction:column;-ms-flex-direction:column;flex-direction:column}.ap-ext-naver_shopping .ap-theme--light .ap-notifications__item{margin-bottom:10px}.ap-ext-naver_shopping .ap-theme--light .ap-notifications__item-link{background-color:#fff;border-radius:6px;padding:4px 0;border:solid 1px #eee;display:flex;display:-ms-flexbox;align-items:center;-ms-flex-align:center}.ap-ext-naver_shopping .ap-theme--light .ap-notifications__item-link:hover{border-color:#fd860e}.ap-ext-naver_shopping .ap-theme--light .ap-notifications__item-icon{width:60px;height:60px;flex-shrink:0;margin:0 4px;border-radius:6px;overflow:hidden}.ap-ext-naver_shopping .ap-theme--light .ap-notifications__item-icon img{width:100%;height:100%}.ap-ext-naver_shopping .ap-theme--light .ap-notifications__item-info{margin:0 6px}.ap-ext-naver_shopping .ap-theme--light .ap-notifications__item-title{font-size:14px;font-weight:600;color:#777;line-height:1.5}.ap-ext-naver_shopping .ap-theme--light .ap-notifications__item-title.text-orange{color:#fd860e}.ap-ext-naver_shopping .ap-theme--light .ap-notifications__item-title.text-green{color:#04c446}.ap-ext-naver_shopping .ap-theme--light .ap-notifications__item-desc{font-size:12px;font-weight:400;color:#777;display:-webkit-box;max-height:36px;overflow:hidden;line-height:18px;transition:all .2s ease-in-out;-webkit-line-clamp:2;-webkit-box-orient:vertical}.ap-ext-naver_shopping .ap-toolbar-tab-Bulletin .ap-toolbar-tab-tab__inner .ap-notification-cover {width: 60px;height: 60px;background-position: center center;background-repeat: no-repeat;}.ap-ext-naver_shopping .ap-theme--dark .ap-toolbar-tab-Bulletin[data-read="true"] .ap-toolbar-tab-tab__inner .ap-notification-cover{background-image: url("https://www.aliprice.com/static/img/qipao-theme/tabbar-icon-message-dark.png ");}.ap-ext-naver_shopping .ap-theme--dark .ap-toolbar-tab-Bulletin[data-read="false"] .ap-toolbar-tab-tab__inner .ap-notification-cover{background-image: url("https://www.aliprice.com/static/img/qipao-theme/tabbar-icon-message-dark.png");}.ap-ext-naver_shopping .ap-theme--light .ap-toolbar-tab-Bulletin[data-read="true"] .ap-toolbar-tab-tab__inner .ap-notification-cover{background-image: url("https://www.aliprice.com/static/img/qipao-theme/tabbar-icon-message-light.png");}.ap-ext-naver_shopping .ap-theme--light .ap-toolbar-tab-Bulletin[data-read="false"] .ap-toolbar-tab-tab__inner .ap-notification-cover{background-image: url("https://www.aliprice.com/static/img/qipao-theme/tabbar-icon-message-light.png");}</style></div></div><div id="volume-booster-visusalizer">
+                <div class="sound">
+                    <div class="sound-icon"></div>
+                    <div class="sound-wave sound-wave_one"></div>
+                    <div class="sound-wave sound-wave_two"></div>
+                    <div class="sound-wave sound-wave_three"></div>
+                </div>
+                <div class="segments-box">
+                    <div data-range="1-20" class="segment"><span></span></div>
+                    <div data-range="21-40" class="segment"><span></span></div>
+                    <div data-range="41-60" class="segment"><span></span></div>
+                    <div data-range="61-80" class="segment"><span></span></div>
+                    <div data-range="81-100" class="segment"><span></span></div>
+                </div>
+            </div></body></html>

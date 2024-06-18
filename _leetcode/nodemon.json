@@ -1,0 +1,6 @@
+{
+  "verbose": true,
+  "ext": "ts,js,json",
+  "watch": [".", "src/**/*"],
+  "exec": "ts-node -r tsconfig-paths/register"
+}

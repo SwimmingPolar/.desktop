@@ -1,0 +1,70 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browser Information</title>
+  <style>
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border: 1px solid black; padding: 8px; text-align: left; }
+  </style>
+</head>
+<body>
+  <h1>Browser Information</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Mouse Click Interval (ms)</th>
+        <th>Latitude</th>
+        <th>Longitude</th>
+        <th>Gyroscope</th>
+        <th>Screen Rotation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="click-interval">-</td>
+        <td id="latitude">-</td>
+        <td id="longitude">-</td>
+        <td id="gyro">-</td>
+        <td id="rotation">-</td>
+      </tr>
+    </tbody>
+  </table>
+  <script>
+    let mouseDownTime = 0;
+
+    // Capture mouse click intervals
+    document.addEventListener('mousedown', () => {
+      mouseDownTime = Date.now();
+    });
+
+    document.addEventListener('mouseup', () => {
+      const mouseUpTime = Date.now();
+      const clickInterval = mouseUpTime - mouseDownTime;
+      document.getElementById('click-interval').innerText = clickInterval;
+    });
+
+    // Get geolocation
+    navigator.geolocation.watchPosition((position) => {
+      const { latitude, longitude } = position.coords;
+      document.getElementById('latitude').innerText = latitude;
+      document.getElementById('longitude').innerText = longitude;
+    });
+
+    // Capture gyroscope data
+    window.addEventListener('deviceorientation', (event) => {
+      const gyroInfo = `alpha: ${event.alpha}, beta: ${event.beta}, gamma: ${event.gamma}`;
+      document.getElementById('gyro').innerText = gyroInfo;
+    });
+
+    // Detect screen rotation changes
+    window.addEventListener('orientationchange', () => {
+      const rotation = screen.orientation.angle || window.orientation;
+      document.getElementById('rotation').innerText = rotation;
+    });
+  </script>
+</body>
+</html>
+
